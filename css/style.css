@@ -11,7 +11,7 @@
   --bg-color: #00163f;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #110b1aef;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -75,6 +75,7 @@ header .container {
   text-decoration: none;
   outline: none;
 }
+
 .btn:hover {
   box-shadow: none;
 }
@@ -109,11 +110,13 @@ section {
   display: flex;
   gap: 2rem
 }
+
 .countdown .clock-item {
   list-style: none;
   width: 70px;
   height: auto;
 }
+
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--font-color);
@@ -127,6 +130,7 @@ section {
   line-height: 1;
   border-radius: 4px 4px 0 0;
 }
+
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
@@ -168,16 +172,18 @@ section {
   .menu {
     gap: 1rem;
   }
+
   .wallet-btn {
     margin-left: 0;
     padding: 1rem;
     max-width: 8rem;
   }
+
   .countdown h1 {
     font-size: 2rem;
   }
+
   .countdown p {
     font-size: 1rem;
   }
 }
- 
