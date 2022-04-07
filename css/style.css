@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #050505;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #110b1aef;
@@ -63,8 +63,10 @@ header .container {
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
-  font-family: var(--font-secondary);
-  font-style: italic;
+  font-family: var(--font-primary);
+  /* secondary */
+  font-style: normal;
+  /* italic */
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
@@ -122,7 +124,8 @@ section {
   color: var(--font-color);
   font-size: 2rem;
   font-weight: 700;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+  /* secondary */
   padding: 1rem;
   display: inline-block;
   width: 100%;
@@ -133,7 +136,8 @@ section {
 
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+  /* secondary */
   font-size: 1.1rem;
   color: var(--bg-color);
   padding: 0.5rem 0.7rem;
@@ -146,7 +150,8 @@ section {
 
 .countdown h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: normal;
+  /* italic */
   margin: 2rem 0;
   font-size: 3.5rem;
   text-align: center;
@@ -154,7 +159,8 @@ section {
 
 .countdown p {
   font-size: 1.1rem;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+  /* secondary */
   margin-bottom: 2rem;
   text-align: center;
 }
